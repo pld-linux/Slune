@@ -5,7 +5,7 @@ Name:		Slune
 Version:	0.6.1
 Release:	1
 License:	GPL
-Group:		Applications/Games
+Group:		X11/Applications/Games
 Source0:	http://oomadness.tuxfamily.org/downloads/%{name}-%{version}.tar.bz2
 # Source0-md5:	68d8e8795f96f4ef375efe0a269dada3
 Source1:	%{name}.desktop
