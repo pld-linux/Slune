@@ -35,12 +35,13 @@ AIDS w Afryce.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 python setup.py install \
 	--root=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install	images/slune.48.png $RPM_BUILD_ROOT%{_pixmapsdir}/%{name}.png
 
 rm -f $RPM_BUILD_ROOT%{_datadir}/slune/*.py
 
@@ -53,3 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/slune
 %{_desktopdir}/*.desktop
+%{_pixmapsdir}/%{name}.png

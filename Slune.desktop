@@ -3,6 +3,7 @@ Name=Slune
 Comment=A 3D action car game
 Comment[pl]=Samochodowa gra akcji 3D
 Exec=slune
+Icon=Slune.png
 Terminal=false
 Type=Application
 Encoding=UTF-8
