@@ -6,10 +6,10 @@ Version:	0.6.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://oomadness.tuxfamily.org/downloads/%{name}-%{version}.tar.bz2
+Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
 # Source0-md5:	68d8e8795f96f4ef375efe0a269dada3
 Source1:	%{name}.desktop
-URL:		http://oomadness.tuxfamily.org/en/slune/
+URL:		http://home.gna.org/oomadness/en/slune/index.html
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
