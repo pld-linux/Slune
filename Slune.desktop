@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Slune
+Comment=A 3D action car game
+Comment[pl]=Samochodowa gra akcji 3D
+Exec=slune
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;Game;Arcade;
+# vi: encoding=utf-8
