@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 Summary:	A 3D action car game
 Summary(pl):	Samochodowa gra akcji 3D
 Name:		Slune
