@@ -1,19 +1,19 @@
 Summary:	A 3D action car game
 Summary(pl):	Samochodowa gra akcji 3D
 Name:		Slune
-Version:	0.7
-Release:	1
+Version:	1.0.4
+Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
-# Source0-md5:	f5c47d42de7bd16cac1cab21928e0231
+# Source0-md5:	6fe755cda26bc8737f9c1e1744e7d046
 Source1:	%{name}.desktop
 URL:		http://home.gna.org/oomadness/en/slune/index.html
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
 BuildRequires:	libvorbis-devel
-Requires:	Soya
+Requires:	Soya >= 0.8.1
 Requires:	python-EditObj
 Requires:	python-Py2Play
 Requires:	python-PyOpenAL
