@@ -6,5 +6,5 @@ Exec=slune
 Terminal=false
 Type=Application
 Encoding=UTF-8
-Categories=Application;Game;ArcadeGame;
+Categories=Game;ActionGame;
 # vi: encoding=utf-8
