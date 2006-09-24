@@ -3,13 +3,13 @@ Summary:	A 3D action car game
 Summary(pl):	Samochodowa gra akcji 3D
 Name:		Slune
 Version:	1.0.12
-Release:	0.%{_rc}.1
+Release:	0.%{_rc}.2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.gna.org/slune/%{name}-%{version}%{_rc}.tar.bz2
 # Source0-md5:	ba523c653e0be5f07400061694006718
 Source1:	%{name}.desktop
-Patch0:		%{name}-slune_bin.patch
+Patch0:		%{name}-soya.patch
 URL:		http://home.gna.org/oomadness/en/slune/index.html
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
