@@ -13,17 +13,17 @@ BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
 BuildRequires:	libvorbis-devel
-Requires:	python-Soya >= 0.9
 Requires:	python-EditObj
 Requires:	python-Py2Play
 Requires:	python-PyOpenAL
+Requires:	python-Soya >= 0.9
 Requires:	python-pyvorbis
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_noautoreqdep	libGL.so.1 libGLU.so.1
 
 %description
-A game where the player, as a Penguin named Tux, try to help fit the
+A game where the player, as a Penguin named Tux, tries to help fit the
 AIDS epidemic in Africa.
 
 %description -l pl
