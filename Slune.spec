@@ -1,13 +1,12 @@
-%define _rc     rc1
 Summary:	A 3D action car game
 Summary(pl):	Samochodowa gra akcji 3D
 Name:		Slune
 Version:	1.0.12
-Release:	0.%{_rc}.2
+Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://download.gna.org/slune/%{name}-%{version}%{_rc}.tar.bz2
-# Source0-md5:	ba523c653e0be5f07400061694006718
+Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
+# Source0-md5:	78a693270888839e8c535f5afa927785
 Source1:	%{name}.desktop
 Patch0:		%{name}-soya.patch
 URL:		http://home.gna.org/oomadness/en/slune/index.html
@@ -34,7 +33,7 @@ Gra, w której gracz, jako pingwin Tux, próbuje powstrzymaæ epidemiê
 AIDS w Afryce.
 
 %prep
-%setup -q -n %{name}-%{version}%{_rc}
+%setup -q
 %patch0 -p1
 
 %install
