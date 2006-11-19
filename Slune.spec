@@ -9,7 +9,7 @@ Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
 # Source0-md5:	78a693270888839e8c535f5afa927785
 Source1:	%{name}.desktop
 Patch0:		%{name}-soya.patch
-URL:		http://home.gna.org/oomadness/en/slune/index.html
+URL:		http://home.gna.org/oomadness/en/slune/
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
