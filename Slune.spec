@@ -1,5 +1,5 @@
 Summary:	A 3D action car game
-Summary(pl):	Samochodowa gra akcji 3D
+Summary(pl.UTF-8):   Samochodowa gra akcji 3D
 Name:		Slune
 Version:	1.0.12
 Release:	0.1
@@ -28,8 +28,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A game where the player, as a Penguin named Tux, tries to help fit the
 AIDS epidemic in Africa.
 
-%description -l pl
-Gra, w której gracz, jako pingwin Tux, próbuje powstrzymaæ epidemiê
+%description -l pl.UTF-8
+Gra, w ktÃ³rej gracz, jako pingwin Tux, prÃ³buje powstrzymaÄ‡ epidemiÄ™
 AIDS w Afryce.
 
 %prep
