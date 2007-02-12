@@ -1,5 +1,5 @@
 Summary:	A 3D action car game
-Summary(pl.UTF-8):   Samochodowa gra akcji 3D
+Summary(pl.UTF-8):	Samochodowa gra akcji 3D
 Name:		Slune
 Version:	1.0.12
 Release:	0.1
