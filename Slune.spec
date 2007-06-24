@@ -1,23 +1,22 @@
 Summary:	A 3D action car game
 Summary(pl.UTF-8):	Samochodowa gra akcji 3D
 Name:		Slune
-Version:	1.0.12
-Release:	0.1
-License:	GPL
+Version:	1.0.13
+Release:	1
+License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
-# Source0-md5:	78a693270888839e8c535f5afa927785
+# Source0-md5:	01e2d9d181f01a8a7a36ac5dcf841dd6
 Source1:	%{name}.desktop
-Patch0:		%{name}-soya.patch
 URL:		http://home.gna.org/oomadness/en/slune/
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	libvorbis-devel
+BuildRequires:	python-devel >= 2.2
 Requires:	python-EditObj
 Requires:	python-Py2Play
-Requires:	python-PyOpenAL
 Requires:	python-Soya >= 0.9
 Requires:	python-pyvorbis
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -34,7 +33,6 @@ AIDS w Afryce.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -53,7 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS CHANGES README
+%doc AUTHORS CHANGES README*
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/slune
 %{_desktopdir}/*.desktop
