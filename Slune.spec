@@ -15,7 +15,6 @@ BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	python-devel >= 2.2
-Requires:	python-EditObj
 Requires:	python-Py2Play
 Requires:	python-Soya >= 0.14
 Requires:	python-pyvorbis
