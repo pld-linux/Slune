@@ -37,8 +37,7 @@ AIDS w Afryce.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install	images/slune.48.png $RPM_BUILD_ROOT%{_pixmapsdir}/%{name}.png
