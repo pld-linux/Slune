@@ -9,6 +9,7 @@ Source0:	http://download.gna.org/slune/%{name}-%{version}.tar.bz2
 # Source0-md5:	100cf5ccda0b7fe38065a8b83dde82ab
 Source1:	%{name}.desktop
 URL:		http://home.gna.org/oomadness/en/slune/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
